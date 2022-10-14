@@ -210,7 +210,7 @@ if(favourite){
           <PopoverContent _focus={{ boxShadown: 'none' }}>
             <PopoverArrow />
             <PopoverCloseButton />
-            <PopoverHeader fontWeight="bold">Added to favorate List</PopoverHeader>
+            <PopoverHeader fontWeight="bold">Added to favourites List</PopoverHeader>
             <PopoverBody w="full">
               <Tabs isLazy colorScheme="green">
                 <TabList>
@@ -220,7 +220,7 @@ if(favourite){
                     fontWeight="bold"
                     onClick={()=>navigate("/favourite")}
                     w="50%">
-                    Go to favorates
+                    Go to favourites
                   </Tab>
                   <Tab
                     _focus={{ boxShadow: 'none' }}
